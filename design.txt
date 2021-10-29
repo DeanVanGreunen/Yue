@@ -1,0 +1,38 @@
+APIs:
+    User:
+        login, reigstration
+    Questions:
+        list, get, create, delete, edit
+    Answers:
+        get, create, edit, delete, mark awnser as selected
+
+DBs
+    User:
+        id (int, pk) email (text|string), password_hash (text|string), credits (int), api_key (text|string)
+    Question:
+        id (int, pk) title (text|string), description (text|string), user_id (int, forgien key)
+    Answer:
+        id (int, pk), text (text|string), user_id, answer_selected
+
+Pages:
+    Login (Any User)
+    Register (Any User)
+    User:
+        View (Any User)
+        Edit (As Logged in user)
+    Questions:
+        List (Any User)
+        View (Any User)
+        Create (Any User)
+        Edit (As Logged in user)
+        Delete (As Logged in user)
+
+Components:
+    Answer
+        Create (Any User)
+        Edit (As Logged in user)
+        Delete (As Logged in user)
+
+Notes:
+    Password will be stored as a hash.
+    In this case I'll be using SHA512 (good for an example project like this)

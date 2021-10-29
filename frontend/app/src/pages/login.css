@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+body {
+    background: #4a86e8;
+    font-family:  "Times New Roman";
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    background: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.form {
+    display: block;
+    padding: 12px 24px;
+}
+
+#email, #password, #passwordConfirm {
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    padding: 20px 12px;
+    width: 320px;
+    margin: 24px auto;
+}
+
+#login {
+    display: block;
+    background: #4a86e8;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    padding: 20px 12px;
+    width: 342px;
+    margin: 24px auto;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+span.error {
+    color: red;
+}
+
+a {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    color: #4a86e8;
+    cursor: pointer;
+}
