@@ -1,0 +1,43 @@
+div.create-quesiton-form {
+    display: block;
+    text-align: left;
+    padding: 16px 58px;
+}
+
+div.create-quesiton-form > input {
+    display: block;
+    padding: 12px;
+    width: calc(100% - 128px);
+    border-radius: 8px;
+    border:1px solid #DEDFE0;
+    background-color: #DEDFE0;
+}
+div.create-quesiton-form > textarea {
+    display: block;
+    padding: 12px;
+    width: calc(100% - 128px);
+    height: 256px;
+    border-radius: 8px;
+    border:1px solid #DEDFE0;
+    background-color: #DEDFE0;
+}
+
+button.submit-new-question {
+    display: block;
+    border: none;
+    background: #EFBED2;
+    color: #FFF;
+    padding: 12px;
+    text-align: left;
+    margin-left: 53px;
+    border-radius: 8px;
+    margin-top: 32px;
+    cursor: pointer;
+
+    position: absolute;
+    right: 158px;
+}
+
+button.submit-new-question:hover {
+    background-color: #575757;
+}

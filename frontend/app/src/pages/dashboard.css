@@ -1,62 +1,45 @@
-.add_question {
+
+button.open-new-question {
     display: block;
-    width: 480px;
-    background-color: #FFF;
-    height: 64px;
-    line-height: 64px;
+    border: none;
+    background: #EFBED2;
+    color: #FFF;
+    padding: 12px;
+    text-align: left;
+    margin-left: 53px;
     border-radius: 8px;
-    margin: 16px auto;
-    color:#4A86E8;
-    border: 1px solid #FFF;
+    margin-top: 32px;
     cursor: pointer;
 }
 
-.add_question:hover {
-    color:#FFF;
-    border: 1px solid #FFF;
-    background-color: #4A86E8;
-
+button.open-new-question:hover {
+    background-color: #575757;
 }
 
-.question_list {
+div.questions-list > div {
     display: block;
     width: calc(100% - 128px);
-    background-color: #FFF;
-    min-height: 64px;
-    border-radius: 8px;
-    margin: 16px auto;
-}
-
-
-.question_list div {
-    display: block;
+    background: #EFBED2;
+    color: #FFF;
+    padding:12px;
+    margin: 12px auto;
     text-align: left;
-}
-
-.question_list div > h4{
-    display: inline-block;
-    padding: 0px 12px;
-}
-
-.question_list div > button {
-    position: absolute;
-    right: 72px;
-    width: 128px;
-    transform: translateY(-10px);
-    display: inline-block;
-    background-color: #4A86E8;
-    height: 52px;
-    line-height: 52px;
     border-radius: 8px;
-    margin: 16px auto;
-    color:#FFF;
-    border: 1px solid #4A86E8;
     cursor: pointer;
 }
 
 
-.question_list div > button:hover {
-    color:#4A86E8;
-    border: 1px solid #4A86E8;
-    background-color: #FFF;
+div.questions-list > div:hover {
+    background-color: #575757;
+}
+
+span.no-questions {
+    display: block;
+    background: #575757;
+    width: 280px;
+    color: #FFF;
+    padding:12px;
+    margin: 12px auto;
+    text-align: center;
+    border-radius: 8px;
 }
